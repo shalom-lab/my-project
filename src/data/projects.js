@@ -1,38 +1,38 @@
 export const projects = [
   {
     id: 1,
-    title: '数据可视化仪表板',
-    description: '使用Shiny开发的交互式数据可视化仪表板，展示实时数据分析结果和预测模型。包含多个可交互的图表和数据筛选功能。',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
-    demoUrl: 'https://example.com/demo1',
-    codeUrl: 'https://github.com/yourusername/project1',
-    tags: ['R', 'Shiny', 'Data Visualization']
+    title: '临床预测模型平台',
+    description: '基于 Shiny 开发的临床预测模型应用平台，集成多个疾病预测模型，支持风险评估、预后预测和个性化治疗方案推荐。包含数据验证、模型校准和动态可视化等功能。',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800',
+    demoUrl: 'https://example.com/clinical-prediction',
+    codeUrl: 'https://github.com/yourusername/clinical-prediction',
+    tags: ['Shiny', 'R', '机器学习', '医疗健康']
   },
   {
     id: 2,
-    title: '机器学习模型展示平台',
-    description: '展示多个机器学习模型的预测结果和性能指标。用户可以上传数据进行实时预测，并查看模型解释性分析。',
-    image: 'https://images.unsplash.com/photo-1527474305487-b87b222841cc?w=800',
-    demoUrl: 'https://example.com/demo2',
-    codeUrl: 'https://github.com/yourusername/project2',
-    tags: ['Machine Learning', 'R', 'Shiny']
+    title: '地理数据可视化平台',
+    description: '整合多源地理数据的可视化平台，支持空间数据分析、地图绘制和交互式探索。使用 leaflet 实现实时地图渲染，支持多层数据叠加和时空分析。',
+    image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800',
+    demoUrl: 'https://example.com/geo-visualization',
+    codeUrl: 'https://github.com/yourusername/geo-visualization',
+    tags: ['Shiny', 'R', 'GIS', '空间分析']
   },
   {
     id: 3,
-    title: '金融数据分析工具',
-    description: '针对金融市场数据的分析工具，提供技术指标计算、回测功能和风险评估。支持多种数据源和自定义指标。',
-    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800',
-    demoUrl: 'https://example.com/demo3',
-    codeUrl: 'https://github.com/yourusername/project3',
-    tags: ['Finance', 'R', 'Data Analysis']
+    title: '生物信息分析工具',
+    description: '用于基因组数据分析的 Shiny 应用，提供序列比对、差异表达分析、通路富集等功能。支持多种数据格式，可视化结果直观清晰。',
+    image: 'https://images.unsplash.com/photo-1542992015-4a0b729b1385?w=800',
+    demoUrl: 'https://example.com/bio-informatics',
+    codeUrl: 'https://github.com/yourusername/bio-informatics',
+    tags: ['Shiny', 'R', '生物信息', '数据分析']
   },
   {
     id: 4,
-    title: '生物信息数据处理平台',
-    description: '用于处理和可视化基因组数据的Shiny应用。支持多种数据格式，提供常用的生物信息学分析工具。',
-    image: 'https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=800',
-    demoUrl: 'https://example.com/demo4',
-    codeUrl: 'https://github.com/yourusername/project4',
-    tags: ['Bioinformatics', 'R', 'Shiny']
+    title: '数据可视化大屏',
+    description: '企业级数据可视化大屏解决方案，实时展示业务核心指标、数据趋势和预警信息。支持多种图表类型，具备数据钻取和实时更新功能。',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
+    demoUrl: 'https://example.com/dashboard',
+    codeUrl: 'https://github.com/yourusername/dashboard',
+    tags: ['Shiny', 'R', '大屏可视化', '实时数据']
   }
 ] 
