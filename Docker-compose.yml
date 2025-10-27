@@ -3,7 +3,7 @@ version: '3.9'
 services:
   web:
     build: .
-    container_name: my-project-web
+    container_name: my-project
     ports:
       - "80:80"
     environment:
